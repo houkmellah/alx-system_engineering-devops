@@ -1,4 +1,2 @@
 #!/bin/bash
-while read -r file; do
-    cp -u "$file" "../"
-done < <(find . -name "*.html")
+cp -u *.html ../
