@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -pUvA | awk 'BEGIN { ORS=""; print "./, ../, " } { if (NR > 2) { print $0, ($0 ~ /\/$/ ? "" : ""), (NR == NR ? "" : ", ") } }'
