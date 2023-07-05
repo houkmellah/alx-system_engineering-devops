@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lad . .. /root
+ls -la . .. /root
